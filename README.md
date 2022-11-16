@@ -1,6 +1,6 @@
 # Flipper0 Rust hello-world
 
-Script to send a Rust program to your flipper0
+Send a Rust program to your flipper0
 
 ## init (reset)
 
@@ -8,4 +8,4 @@ Script to send a Rust program to your flipper0
 
 ## dev
 
-`sh dev,sh`
+`sh dev.sh`
