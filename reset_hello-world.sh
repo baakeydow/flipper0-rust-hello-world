@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 ROOT_DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
-export FLIPPER_FW_SRC_PATH="$ROOT_DIR/RogueMaster"
-export FLIPPER_0="$ROOT_DIR/flipper0"
+FLIPPER_FW_SRC_PATH="$ROOT_DIR/RogueMaster"
+FLIPPER_0="$ROOT_DIR/flipper0"
 
 rustup update nightly && rustup target add thumbv7em-none-eabihf && echo "rustup done"
 
