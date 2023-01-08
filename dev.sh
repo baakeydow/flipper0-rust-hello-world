@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 ROOT_DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
-export FLIPPER_FW_SRC_PATH="$ROOT_DIR/RogueMaster"
-export FLIPPER_APP_DIR="$ROOT_DIR/flipper0"
+FLIPPER_FW_SRC_PATH="$ROOT_DIR/RogueMaster"
+FLIPPER_APP_DIR="$ROOT_DIR/flipper0"
 
 if [ -d "$FLIPPER_FW_SRC_PATH" ] && [ -f "$FLIPPER_APP_DIR/examples/hello-fap.rs" ];
 then
